@@ -1,0 +1,402 @@
+[
+  {
+    "id": "about-summary",
+    "type": "about",
+    "title": "Professional summary",
+    "text": "Abdelrahman Gaber is an AI/ML engineer and a fourth-year (final year) student of Artificial Intelligence and Computer Science at Helwan University (also written Capital University), class of 2027, with a GPA of 3.39 out of 4.0. He builds end-to-end machine learning pipelines, with a focus on deep learning, NLP and computer vision, and has also worked as a software engineer on ERPNext. He is from Beheira and based in Alexandria, Egypt. He speaks Arabic natively and English at an intermediate level, works on Linux (Ubuntu and Void), and has solved more than 230 problems on Codeforces and LeetCode.",
+    "source": "github",
+    "tags": ["ai", "machine-learning", "deep-learning", "nlp", "computer-vision", "linux", "egypt"]
+  },
+  {
+    "id": "goal-internship",
+    "type": "goal",
+    "title": "Career goal",
+    "text": "Abdelrahman Gaber is looking for computer vision and NLP internships. He wants to work on real-world machine learning models that are built and deployed, connecting theory to practical applications.",
+    "source": "github",
+    "tags": ["career", "internship", "computer-vision", "nlp"],
+    "needs_review": true,
+    "review_note": "Taken from the GitHub profile and LinkedIn summary. Add 2-3 sentences about what you want next and what you are proud of."
+  },
+  {
+    "id": "about-links",
+    "type": "about",
+    "title": "Online profiles and links",
+    "text": "Abdelrahman Gaber's online profiles: GitHub username AbdelrahmanGaber528, a LinkedIn profile, a personal website at abdelrahmangaberhamdy.netlify.app, and Telegram. His GitHub profile README is titled AI / ML Engineer | Deep Learning with the tagline 'Data doesn't lie'.",
+    "source": "github",
+    "tags": ["links", "github", "linkedin"],
+    "url": "https://github.com/AbdelrahmanGaber528"
+  },
+  {
+    "id": "edu-helwan",
+    "type": "education",
+    "title": "B.Sc. Computer Science (Artificial Intelligence), Helwan University",
+    "text": "Abdelrahman Gaber studies for a B.Sc. in Computer Science with an Artificial Intelligence specialization at Helwan University in Cairo, from October 2023, expected graduation in 2027. He is in year 4 (final year) with a GPA of 3.39 out of 4.0. Relevant coursework: Machine Learning, NLP, Cloud Computing, Data Structures and Algorithms, and Database Systems.",
+    "source": "github",
+    "date_start": "2023-10",
+    "date_end": "2027-08",
+    "tags": ["education", "ai", "helwan"],
+    "organization": "Helwan University",
+    "needs_review": true,
+    "review_note": "LinkedIn says Artificial Intelligence and Computer Science, third year (outdated). GitHub says Year 4, GPA 3.39. Used the GitHub values."
+  },
+  {
+    "id": "exp-itech",
+    "type": "experience",
+    "title": "Software Engineer at iTech Solutions",
+    "text": "Abdelrahman Gaber worked as a Software Engineer at iTech Solutions in Cairo from September 2025 to February 2026. He customized ERPNext modules (CRM, Sales, Stock, Accounting), reducing manual configuration time by about 40 percent. He designed KPI dashboards with more than 5 interactive charts and built SQL and Query Builder reports for more than 3 business units. He managed users, roles and permission tables, integrated WhatsApp and Meta APIs for automated business messaging, built automated workflows and HTML/CSS print formats, and debugged Python and JavaScript server-side logic while testing APIs with Postman.",
+    "source": "github",
+    "date_start": "2025-09",
+    "date_end": "2026-02",
+    "tags": ["erpnext", "python", "javascript", "sql", "postman", "whatsapp-api", "dashboards"],
+    "organization": "iTech Solutions",
+    "role": "Software Engineer"
+  },
+  {
+    "id": "exp-depi",
+    "type": "experience",
+    "title": "AI and ML Track trainee at DEPI",
+    "text": "Abdelrahman Gaber completed the Machine Learning and Data Science (AI and ML) track of the Digital Egypt Pioneers Initiative (DEPI) in Alexandria from June 2025 to December 2025. The training covered machine learning algorithms, deep learning and NLP pipelines. He applied cross-validation, feature engineering and production deployment workflows.",
+    "source": "linkedin",
+    "date_start": "2025-06",
+    "date_end": "2025-12",
+    "tags": ["depi", "machine-learning", "deep-learning", "nlp", "deployment"],
+    "organization": "Digital Egypt Pioneers Initiative (DEPI)",
+    "role": "Trainee, AI and ML track"
+  },
+
+  {
+    "id": "proj-bmw-classification",
+    "type": "project",
+    "title": "BMW Classification Production Pipeline",
+    "text": "BMW Classification Production Pipeline is an end-to-end machine learning project for BMW vehicle classification, built as an MLOps-style pipeline from notebooks to a deployed Streamlit application. The code is modular: components for data ingestion, data transformation, model training and model evaluation, a prediction pipeline, and utilities for configuration, custom logging and exception handling. It uses Python 3.12, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn and Plotly. The app is deployed on Streamlit Cloud, where users upload images and see predictions with confidence scores and performance metrics.",
+    "source": "github",
+    "tags": ["python", "scikit-learn", "streamlit", "mlops", "logging", "classification", "pandas"],
+    "url": "https://github.com/AbdelrahmanGaber528/BMW_Classification",
+    "role": "unknown",
+    "ownership": "own",
+    "outcome": "Live Streamlit demo",
+    "needs_review": true,
+    "review_note": "README also lists DVC, Docker, A/B testing and monitoring as architecture goals. Confirm which are implemented before claiming them. Also confirm whether this is the same project as the 'Production ML Classification Pipeline' on your GitHub profile."
+  },
+  {
+    "id": "proj-bmw-pipeline-flow",
+    "type": "repo_section",
+    "title": "BMW Classification: Pipeline architecture",
+    "text": "In the BMW Classification project, the pipeline flow is: data ingestion (collection and validation), data transformation (preprocessing and feature engineering), model training with hyperparameter tuning, model evaluation, deployment with monitoring, and continuous integration. The repository separates src/components (data_ingestion, data_transformation, model_trainer, model_evaluation), src/pipelines (prediction_pipeline), src/utils (common, logger, exception) and src/config, with notebooks for EDA and preprocessing, a main.py to run training and an app.py for the Streamlit app.",
+    "source": "github",
+    "tags": ["mlops", "pipeline", "modular-architecture", "streamlit"],
+    "url": "https://github.com/AbdelrahmanGaber528/BMW_Classification",
+    "parent_id": "proj-bmw-classification"
+  },
+  {
+    "id": "proj-production-pipeline",
+    "type": "project",
+    "title": "Production ML Classification Pipeline",
+    "text": "Production ML Classification Pipeline (August to September 2025) is an end-to-end pipeline that processes more than 50,000 records and reaches 98 percent cross-validated classification accuracy. It automates ETL, data validation and feature engineering, tracks experiments with MLflow, and serves a real-time Streamlit inference dashboard with sub-second response time. Stack: scikit-learn, MLflow, MLOps practices and Streamlit.",
+    "source": "github",
+    "date_start": "2025-08",
+    "date_end": "2025-09",
+    "tags": ["scikit-learn", "mlflow", "mlops", "streamlit", "etl", "classification"],
+    "url": "https://github.com/AbdelrahmanGaber528/Production-Classification-Pipeline",
+    "role": "unknown",
+    "ownership": "own",
+    "outcome": "98% cross-validated accuracy on 50,000+ records",
+    "needs_review": true,
+    "review_note": "From your GitHub profile. Confirm role and whether it is the same as the BMW Classification repo."
+  },
+
+  {
+    "id": "proj-ocr",
+    "type": "project",
+    "title": "Distributed OCR System",
+    "text": "Distributed OCR System is a microservices-based optical character recognition system with a gateway pattern, offering both single-character classification and full-word recognition. It has three FastAPI services: a Gateway on port 8000 that routes requests and serves a simple web UI, a Character Service on port 8001 running a custom MobileNetV2 or OCR_CNN model in PyTorch trained on handwritten and printed characters, and a Word Service on port 8002 using EasyOCR for text detection and recognition. It runs locally with a script or in containers with Docker Compose, and is deployed on AWS. It was built as part of an Advanced Machine Learning curriculum and presented in a Cloud Computing course.",
+    "source": "github",
+    "tags": ["ocr", "fastapi", "pytorch", "easyocr", "mobilenetv2", "docker", "docker-compose", "microservices", "aws", "opencv"],
+    "role": "unknown",
+    "ownership": "team",
+    "needs_review": true,
+    "review_note": "README does not say who built what. A project discussion sheet (Cloud Computing / Integrated Projects, Spring 2026) suggests it is a course team project. Add your role and the repo URL."
+  },
+  {
+    "id": "proj-ocr-api-testing",
+    "type": "repo_section",
+    "title": "Distributed OCR System: API, logging and testing",
+    "text": "In the Distributed OCR System, the gateway exposes a web interface and the endpoints POST /predict/character and POST /predict/word, and each service provides health checks and interactive Swagger documentation. All services use standard Python logging, consolidated into a single app.log when run locally with run_local.sh. The project includes test_system.py to verify all services and OCR accuracy, and test_all.sh to run end-to-end tests in both local and Docker modes. Shared preprocessing and model-loading logic lives in a shared module.",
+    "source": "github",
+    "tags": ["fastapi", "swagger", "testing", "logging"],
+    "parent_id": "proj-ocr"
+  },
+  {
+    "id": "proj-ocr-aws",
+    "type": "repo_section",
+    "title": "Distributed OCR System: AWS deployment",
+    "text": "In the Distributed OCR System, the gateway is deployed on AWS in the eu-north-1 region. User-uploaded images are stored in Amazon S3, and prediction metadata (filename, S3 key, prediction text, confidence, model type, timestamp) is stored in an Amazon RDS PostgreSQL instance (db.t3.micro). The gateway Docker image is built for linux/amd64, pushed to Amazon ECR and run on Amazon ECS, configured through environment variables for the bucket and database URL, and the predictions table is created automatically at startup. Monitoring uses Amazon CloudWatch: centralized logs for the three services, Container Insights for ECS CPU and memory, and health-check alarms.",
+    "source": "github",
+    "tags": ["aws", "s3", "rds", "postgresql", "ecs", "ecr", "cloudwatch", "docker", "deployment"],
+    "parent_id": "proj-ocr"
+  },
+
+  {
+    "id": "proj-toxic-comments",
+    "type": "project",
+    "title": "Toxic Comment Classification using RNN and LSTM",
+    "text": "Toxic Comment Classification is a deep learning multi-label text classification project that detects six types of toxicity in online comments: toxic, severe_toxic, obscene, threat, insult and identity_hate. One comment can have several labels at once. The project implements and compares a bidirectional RNN and an LSTM in PyTorch on about 159,000 comments. The LSTM was clearly better, reaching a micro F1 of 0.65 against 0.55 for the RNN.",
+    "source": "github",
+    "tags": ["pytorch", "lstm", "rnn", "nlp", "multi-label-classification", "text-classification"],
+    "role": "unknown",
+    "ownership": "own",
+    "outcome": "LSTM micro F1 0.65, macro F1 0.54 vs RNN 0.55 and 0.43",
+    "needs_review": true,
+    "review_note": "Add repo URL and dates."
+  },
+  {
+    "id": "proj-toxic-data",
+    "type": "repo_section",
+    "title": "Toxic Comment Classification: Data and preprocessing",
+    "text": "In the Toxic Comment Classification project, the dataset had 159,571 comments; after removing 493 invalid samples, 159,078 remained. Labels are very imbalanced: toxic 15,294, obscene 8,449, insult 7,877, severe_toxic 1,595, identity_hate 1,405 and threat 478 positive samples. Text length analysis showed 95 percent of comments under 230 words, so max_length was set to 100 with truncation and padding. Preprocessing includes normalization, tokenization, replacing URLs and IP addresses with special URL and IP tokens, building a vocabulary with PAD and UNK tokens, and converting tokens to integer IDs.",
+    "source": "github",
+    "tags": ["preprocessing", "tokenization", "class-imbalance", "nlp"],
+    "parent_id": "proj-toxic-comments"
+  },
+  {
+    "id": "proj-toxic-models",
+    "type": "repo_section",
+    "title": "Toxic Comment Classification: Models and training",
+    "text": "In the Toxic Comment Classification project, two architectures were built. The bidirectional RNN uses an embedding layer, a bidirectional RNN and a fully connected layer with 6 output logits; because sequences are padded, it computes the real length with (x != 0).sum(dim=1) and takes the last valid token instead of a padding position. The LSTM model uses embedding, a 2-layer LSTM and a fully connected layer. LSTM configuration: embedding size 128, hidden dimension 256, 2 layers, 10 epochs, batch size 64, learning rate 0.0001, dropout 0.3, max sequence length 100.",
+    "source": "github",
+    "tags": ["pytorch", "rnn", "lstm", "embedding", "training"],
+    "parent_id": "proj-toxic-comments",
+    "needs_review": true,
+    "review_note": "README heading says BiLSTM but the description and config describe a plain LSTM. Confirm."
+  },
+  {
+    "id": "proj-toxic-imbalance",
+    "type": "repo_section",
+    "title": "Toxic Comment Classification: Handling label imbalance and thresholds",
+    "text": "In the Toxic Comment Classification project, label imbalance was handled with class weighting: positive weights equal to the square root of negative count divided by positive count, passed to BCEWithLogitsLoss, where the square root reduces the size of the raw imbalance ratio. Prediction thresholds such as 0.85 and 0.90 on the sigmoid probabilities were tested, since a lower threshold gives more positive predictions (higher recall) and a higher threshold makes the model more conservative (higher precision).",
+    "source": "github",
+    "tags": ["class-weights", "bce-with-logits", "threshold-tuning", "imbalance"],
+    "parent_id": "proj-toxic-comments"
+  },
+  {
+    "id": "proj-toxic-results",
+    "type": "repo_section",
+    "title": "Toxic Comment Classification: Results RNN vs LSTM",
+    "text": "In the Toxic Comment Classification project, overall F1 scores were: RNN micro 0.55, macro 0.43, weighted 0.55; LSTM micro 0.65, macro 0.54, weighted 0.65. Per-label F1 (RNN vs LSTM): toxic 0.60 vs 0.69, severe_toxic 0.29 vs 0.38, obscene 0.59 vs 0.69, threat 0.31 vs 0.45, insult 0.54 vs 0.62, identity_hate 0.24 vs 0.44. Both models did best on frequent labels (toxic, obscene) and worst on rare labels (threat, identity_hate, severe_toxic), showing the effect of imbalance. The LSTM improved most on identity_hate and threat.",
+    "source": "github",
+    "tags": ["f1-score", "evaluation", "rnn", "lstm", "results"],
+    "parent_id": "proj-toxic-comments"
+  },
+
+  {
+    "id": "proj-content-portal",
+    "type": "project",
+    "title": "Content Classification Portal",
+    "text": "Content Classification Portal is a modular Streamlit web application that classifies text comments and images for multi-label toxicity (toxic, severe_toxic, obscene, threat, insult, identity_hate). Images are first captioned with the BLIP image captioning model and the caption is classified by a PyTorch LSTM, the model from the toxic comment project. It has an Evaluation Workspace for text or image input, and a History Logs page with metrics, past evaluations and a delete button, backed by a history.csv file updated in real time. Inference is optimized for CPU with tensor caching and torch.inference_mode().",
+    "source": "github",
+    "tags": ["streamlit", "pytorch", "lstm", "blip", "image-captioning", "nlp", "computer-vision", "toxicity"],
+    "url": "https://github.com/AbdelrahmanGaber528/Cellula_2Week_Abdelrahman_Gaber",
+    "role": "author",
+    "ownership": "own",
+    "needs_review": true,
+    "review_note": "Repo name suggests a 2-week task for Cellula. Confirm the context (internship or course) and dates."
+  },
+  {
+    "id": "proj-content-portal-structure",
+    "type": "repo_section",
+    "title": "Content Classification Portal: Code structure",
+    "text": "In the Content Classification Portal, app.py is the Streamlit entry point, and the src package is split into model.py, predict.py, text_classification.py, text_preprocessing.py, image_caption.py and csv_manager.py. The assets folder holds the trained LSTM weights, config.json and vocab.json, and the notebooks folder holds the LSTM and RNN training notebooks. Users switch between the workspace and history pages with a sidebar.",
+    "source": "github",
+    "tags": ["modular-architecture", "streamlit", "pytorch"],
+    "parent_id": "proj-content-portal"
+  },
+
+  {
+    "id": "proj-mcp",
+    "type": "project",
+    "title": "Medical Costs Prediction (MCP)",
+    "text": "Medical Costs Prediction is a regression project that predicts medical costs using multilinear regression and polynomial regression. The workflow covers preprocessing (encoding categorical features and scaling numerical features), model training, evaluation with MSE, RMSE and R2 score, and testing. The repository separates raw and processed data, a config module, saved models, visualizations and Jupyter notebooks for experiments and training. Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn and Jupyter.",
+    "source": "github",
+    "tags": ["regression", "polynomial-regression", "scikit-learn", "pandas", "preprocessing", "python"],
+    "url": "https://github.com/AbdelrahmanGaber528/MCP",
+    "role": "author",
+    "ownership": "own",
+    "needs_review": true,
+    "review_note": "README does not report results (R2 or RMSE) or dates. Add them."
+  },
+
+  {
+    "id": "proj-semsol",
+    "type": "project",
+    "title": "SEMSOL: Gaze and Engagement Estimation with Blink Detection",
+    "text": "SEMSOL performs real-time gaze estimation, engagement scoring and eye-blink detection with deep learning and computer vision, from a webcam or video file. Gaze comes from a deep learning model (backbones such as ResNet-18, ResNet-34 and MobileNetV2; Gaze360 or MPIIGaze datasets). A rule-based engagement scorer gives a 0 to 100 score with 4 levels, from Highly Engaged (75 to 100) to Disengaged (0 to 24), and blinks are detected from facial landmarks with cvzone using an eye aspect ratio. Output shows gaze visualization, engagement score overlay and blink counter, and the processed video can be saved.",
+    "source": "github",
+    "tags": ["gaze-estimation", "computer-vision", "pytorch", "resnet", "mobilenetv2", "blink-detection", "cvzone", "engagement"],
+    "url": "https://github.com/Mario-Gamal-Sobhy/SEMSOL",
+    "role": "unknown",
+    "ownership": "unknown",
+    "needs_review": true,
+    "review_note": "README author is Mario Gamal Sobhy and the repo is under his account. State clearly whether you contributed, worked in a team, or forked it. Do not claim sole authorship unless true."
+  },
+  {
+    "id": "proj-semsol-engagement",
+    "type": "repo_section",
+    "title": "SEMSOL: Engagement levels and blink detection",
+    "text": "In SEMSOL, engagement is scored from 0 to 100 and mapped to four levels: level 1 Highly Engaged (75 to 100), level 2 Engaged (50 to 74), level 3 Partially Engaged (25 to 49), level 4 Disengaged (0 to 24). Blink detection uses facial landmarks via cvzone: it measures vertical and horizontal eye distances, computes a ratio to decide whether the eye is closed, and increments a counter per blink. Blink data feeds into the engagement score. Performance tips: use a GPU, reduce resolution or disable blink detection for higher FPS, and use MobileNetV2 for faster inference than ResNet.",
+    "source": "github",
+    "tags": ["engagement-scoring", "blink-detection", "eye-aspect-ratio", "performance"],
+    "parent_id": "proj-semsol"
+  },
+  {
+    "id": "ref-mobilegaze",
+    "type": "project",
+    "title": "MobileGaze (upstream gaze-estimation library)",
+    "text": "MobileGaze (yakhyo/gaze-estimation, by Yakhyokhuja Valikhujaev) is an open-source gaze estimation project that supports ResNet 18/34/50, MobileNet v2 and MobileOne s0-s4 models, built on top of L2CS-Net, with ONNX export and inference and face detection through the uniface library (RetinaFace). Models are trained on Gaze360, with mean absolute error of 12.84 degrees for ResNet-18, 11.33 for ResNet-34, 11.34 for ResNet-50, 13.07 for MobileNet V2 and 12.58 for MobileOne S0. SEMSOL uses the same command-line interface, so it appears to build on this project.",
+    "source": "github",
+    "tags": ["gaze-estimation", "onnx", "mobilenet", "resnet", "mobileone", "third-party"],
+    "url": "https://github.com/yakhyo/gaze-estimation",
+    "ownership": "third_party",
+    "needs_review": true,
+    "review_note": "This README is someone else's project. Keep it only as a reference that SEMSOL is built on. Remove this record if it is not related to your work."
+  },
+
+  {
+    "id": "skill-python",
+    "type": "skill",
+    "title": "Python",
+    "text": "Python is Abdelrahman Gaber's main language, used across his machine learning projects (BMW Classification, Production Classification Pipeline, Toxic Comment Classification, Medical Costs Prediction, SEMSOL, Content Classification Portal, Distributed OCR System), his FastAPI services, and server-side debugging in ERPNext at iTech Solutions.",
+    "source": "github",
+    "tags": ["python"],
+    "evidence": ["proj-bmw-classification", "proj-production-pipeline", "proj-toxic-comments", "proj-mcp", "proj-semsol", "proj-content-portal", "proj-ocr", "exp-itech"]
+  },
+  {
+    "id": "skill-classical-ml",
+    "type": "skill",
+    "title": "Classical machine learning and data science",
+    "text": "Abdelrahman Gaber works with scikit-learn, Pandas and NumPy for classification and regression: preprocessing, encoding, scaling, feature engineering, cross-validation, and evaluation with MSE, RMSE, R2 and F1. Examples: the BMW and Production classification pipelines, multilinear and polynomial regression in Medical Costs Prediction, and the DEPI machine learning track.",
+    "source": "github",
+    "tags": ["scikit-learn", "pandas", "numpy", "regression", "classification", "feature-engineering", "cross-validation"],
+    "evidence": ["proj-bmw-classification", "proj-production-pipeline", "proj-mcp", "exp-depi"]
+  },
+  {
+    "id": "skill-deep-learning",
+    "type": "skill",
+    "title": "Deep learning with PyTorch",
+    "text": "Abdelrahman Gaber builds and trains neural networks in PyTorch: RNN and LSTM text classifiers with handling of padding and label imbalance, a custom MobileNetV2/CNN character classifier in the OCR system, and gaze estimation backbones (ResNet, MobileNetV2) in SEMSOL. He covered deep learning in the DEPI track.",
+    "source": "github",
+    "tags": ["pytorch", "deep-learning", "rnn", "lstm", "cnn", "mobilenetv2", "resnet"],
+    "evidence": ["proj-toxic-comments", "proj-ocr", "proj-semsol", "proj-content-portal", "exp-depi"]
+  },
+  {
+    "id": "skill-nlp",
+    "type": "skill",
+    "title": "Natural language processing",
+    "text": "Abdelrahman Gaber has NLP experience in multi-label toxic comment classification: text normalization, tokenization, vocabulary building, sequence padding and truncation, RNN and LSTM models, threshold tuning and imbalance handling. He also combined NLP with image captioning (BLIP) in the Content Classification Portal, and studied NLP pipelines in DEPI.",
+    "source": "github",
+    "tags": ["nlp", "text-classification", "tokenization", "lstm", "blip"],
+    "evidence": ["proj-toxic-comments", "proj-content-portal", "exp-depi"]
+  },
+  {
+    "id": "skill-computer-vision",
+    "type": "skill",
+    "title": "Computer vision",
+    "text": "Abdelrahman Gaber has computer vision experience in OCR (character classification with a custom CNN and word recognition with EasyOCR, using Pillow and OpenCV), real-time gaze estimation, engagement scoring and blink detection in SEMSOL, and image captioning with BLIP in the Content Classification Portal. He is targeting computer vision internships.",
+    "source": "github",
+    "tags": ["computer-vision", "ocr", "opencv", "easyocr", "gaze-estimation", "image-captioning"],
+    "evidence": ["proj-ocr", "proj-semsol", "proj-content-portal"]
+  },
+  {
+    "id": "skill-mlops-deployment",
+    "type": "skill",
+    "title": "MLOps and model deployment",
+    "text": "Abdelrahman Gaber builds production-style ML systems: modular pipelines (ingestion, transformation, training, evaluation, prediction), custom logging and exception handling, experiment tracking with MLflow, Streamlit apps deployed on Streamlit Cloud, and containerized services deployed on AWS.",
+    "source": "github",
+    "tags": ["mlops", "mlflow", "streamlit", "logging", "deployment"],
+    "evidence": ["proj-bmw-classification", "proj-bmw-pipeline-flow", "proj-production-pipeline", "proj-ocr-aws", "proj-content-portal", "exp-depi"]
+  },
+  {
+    "id": "skill-backend-apis",
+    "type": "skill",
+    "title": "Backend and APIs (FastAPI)",
+    "text": "Abdelrahman Gaber builds APIs with FastAPI and Uvicorn, including a microservices system with a gateway and separate model services with health checks and Swagger docs. At iTech Solutions he integrated WhatsApp and Meta APIs and tested APIs with Postman.",
+    "source": "github",
+    "tags": ["fastapi", "uvicorn", "microservices", "rest-api", "postman", "swagger"],
+    "evidence": ["proj-ocr", "proj-ocr-api-testing", "exp-itech"]
+  },
+  {
+    "id": "skill-docker-cloud",
+    "type": "skill",
+    "title": "Docker and AWS cloud",
+    "text": "Abdelrahman Gaber uses Docker and Docker Compose to package multi-service apps, and has deployed the OCR system on AWS using S3 for image storage, RDS PostgreSQL for metadata, ECR for images, ECS for running containers, and CloudWatch for logs, Container Insights and alarms. He studied Cloud Computing at university.",
+    "source": "github",
+    "tags": ["docker", "docker-compose", "aws", "s3", "rds", "ecs", "ecr", "cloudwatch"],
+    "evidence": ["proj-ocr", "proj-ocr-aws", "edu-helwan"]
+  },
+  {
+    "id": "skill-databases",
+    "type": "skill",
+    "title": "Databases and SQL",
+    "text": "Abdelrahman Gaber works with SQL and relational databases: PostgreSQL on Amazon RDS in the OCR system, SQL and Query Builder reports for several business units in ERPNext, and database systems coursework. His LinkedIn lists Oracle Database among his top skills.",
+    "source": "linkedin",
+    "tags": ["sql", "postgresql", "oracle", "databases"],
+    "evidence": ["proj-ocr-aws", "exp-itech", "edu-helwan"]
+  },
+  {
+    "id": "skill-erpnext",
+    "type": "skill",
+    "title": "ERPNext customization",
+    "text": "Abdelrahman Gaber customized ERPNext (CRM, Sales, Stock and Accounting modules), built KPI dashboards and SQL reports, managed roles and permissions, automated workflows, created HTML/CSS print formats and integrated WhatsApp and Meta APIs, while working at iTech Solutions.",
+    "source": "github",
+    "tags": ["erpnext", "python", "javascript", "workflows", "dashboards"],
+    "evidence": ["exp-itech"]
+  },
+  {
+    "id": "skill-data-viz",
+    "type": "skill",
+    "title": "Data visualization and dashboards",
+    "text": "Abdelrahman Gaber visualizes data with Matplotlib, Seaborn and Plotly (EDA and result plots in his ML projects, confusion matrices, loss curves) and built KPI dashboards with more than 5 interactive charts in ERPNext, plus interactive Streamlit dashboards.",
+    "source": "github",
+    "tags": ["matplotlib", "seaborn", "plotly", "dashboards", "streamlit"],
+    "evidence": ["proj-toxic-results", "proj-bmw-classification", "exp-itech"]
+  },
+  {
+    "id": "skill-linux-tools",
+    "type": "skill",
+    "title": "Linux and developer tools",
+    "text": "Abdelrahman Gaber works daily on Linux (Ubuntu and Void; LinkedIn describes him as a Linux aficionado) and uses Git, Docker and Postman, shell scripts for automation (such as run_local.sh in the OCR project), and virtual environments.",
+    "source": "github",
+    "tags": ["linux", "ubuntu", "git", "shell", "docker", "postman"],
+    "evidence": ["proj-ocr"]
+  },
+  {
+    "id": "skill-languages",
+    "type": "skill",
+    "title": "Programming languages",
+    "text": "Abdelrahman Gaber's programming languages: Python (main), C++, Java and SQL, as listed on his GitHub profile. His LinkedIn also lists PHP and Software Systems Engineering among top skills. JavaScript was used for ERPNext server-side logic.",
+    "source": "github",
+    "tags": ["python", "cpp", "java", "sql", "php", "javascript"],
+    "evidence": ["exp-itech", "proj-semsol"],
+    "needs_review": true,
+    "review_note": "Only Python and SQL are backed by projects here. Add projects for C++ and Java if you have them."
+  },
+  {
+    "id": "skill-problem-solving",
+    "type": "skill",
+    "title": "Competitive programming and problem solving",
+    "text": "Abdelrahman Gaber has solved more than 230 problems on Codeforces and LeetCode, which supports his data structures and algorithms background from Helwan University.",
+    "source": "github",
+    "tags": ["algorithms", "data-structures", "codeforces", "leetcode"],
+    "evidence": ["edu-helwan"]
+  },
+
+  {
+    "id": "about-timeline",
+    "type": "about",
+    "title": "Career and education timeline",
+    "text": "Timeline for Abdelrahman Gaber: October 2023, started B.Sc. Computer Science (AI) at Helwan University. June to December 2025, DEPI Machine Learning and Data Science track in Alexandria. August to September 2025, built the Production ML Classification Pipeline. September 2025 to February 2026, Software Engineer at iTech Solutions (ERPNext). 2026, Distributed OCR System deployed on AWS for a Cloud Computing course. Final year (year 4) of university, graduating in 2027, while seeking computer vision and NLP internships.",
+    "source": "note",
+    "tags": ["timeline", "career"],
+    "needs_review": true,
+    "review_note": "Derived from the other records. Dates for OCR, the toxic comment project, SEMSOL, MCP and the portal are not in the files."
+  }
+]
