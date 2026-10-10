@@ -38,7 +38,6 @@ README files + LinkedIn + notes
 | Embeddings | `sentence-transformers/all-MiniLM-L6-v2` (CPU) |
 | Vector store | FAISS |
 | LLM | OpenRouter (OpenAI-compatible API) |
-| UI | Gradio |
 
 ## Project structure
 
