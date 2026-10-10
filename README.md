@@ -3,9 +3,6 @@
 
 A question-answering assistant that answers questions about my projects, skills and experience, **using only my own documents**. Every answer shows the sources it came from, so you can check it.
 
-
-**Author:** Abdelrahman Gaber · [GitHub](https://github.com/AbdelrahmanGaber528)
-
 ---
 
 ## What it does
@@ -42,7 +39,6 @@ README files + LinkedIn + notes
 | Vector store | FAISS |
 | LLM | OpenRouter (OpenAI-compatible API) |
 | UI | Gradio |
-| Hosting | Hugging Face Spaces |
 
 ## Project structure
 
@@ -68,7 +64,8 @@ README files + LinkedIn + notes
   "source": "github",
   "tags": ["ocr", "fastapi", "aws"],
   "ownership": "team",
-  "parent_id": null
+  "parent_id": null,
+  "questions":["Does he know PyTorch?","What neural networks has he trained?"]
 }
 ```
 
@@ -81,6 +78,7 @@ README files + LinkedIn + notes
 | `ownership` | `own`, `team`, `unknown` or `third_party`, so the assistant does not overclaim |
 | `parent_id` | Links a detail section to its project |
 | `evidence` | On skills: the records that prove the skill |
+| `questions` | Related questions on text
 
 Private details (email, phone, credentials) are intentionally **not** included.
 
@@ -109,19 +107,6 @@ langchain-classic
 sentence-transformers
 faiss-cpu
 ```
-
-## Evaluation
-
-Retrieval is measured with **Recall@K** on a hand-written question set . Each question lists the record ids that should be found.
-
-| Setup | Recall@1 | Recall@3 | Recall@5 |
-|---|---|---|---|
-| Embedded text only | _fill in_ | _fill in_ | _fill in_ |
-| Header + text (current) | _fill in_ | _fill in_ | _fill in_ |
-| Header + text + parent expansion | _fill in_ | _fill in_ | _fill in_ |
-
-_Run the notebook and replace the placeholders with your own numbers._
-
 ## License
 
 The MIT License (MIT)
